@@ -9,18 +9,7 @@ export interface ITask {
 }
 
 function App() {
-  const [tasks, setTasks] = useState<ITask[]>([
-    {
-      id: 'teste',
-      title: 'teste',
-      isCompleted: true,
-    },
-    {
-      id: 'Felipe',
-      title: 'Felipe',
-      isCompleted: false,
-    },
-  ]);
+  const [tasks, setTasks] = useState<ITask[]>([]);
 
   function addTask(tastTitle: string) {
     setTasks([
@@ -38,12 +27,26 @@ function App() {
     setTasks(newTasks);
   }
 
+  function toggleTaskCompletedById(taskId: string) {
+    const newTasks = tasks.map(task => {
+      if(task.id === taskId) {
+        return {
+          ...task,
+          isCompleted: !task.isCompleted,
+        }
+      }
+      return task;
+    });
+    setTasks(newTasks);
+  }
+
   return (
     <>
       <Header onAddTask={addTask} />
       <Tasks
         tasks={tasks}
         onDelete={deleteTaskById}
+        onComplete={toggleTaskCompletedById}
       />
     </>
   )
