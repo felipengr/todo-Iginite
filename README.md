@@ -8,19 +8,19 @@
 <div align="center">
 
   <a href="">
-    <img src="https://img.shields.io/github/languages/count/felipengr/todo-Iginite.svg?color=00B37E" alt="languages" >
+    <img src="https://img.shields.io/github/languages/count/felipengr/todo-Iginite.svg?color=5e60ce" alt="languages" >
   </a>
 
   <a href="">
-    <img src="https://img.shields.io/github/languages/top/felipengr/todo-Iginite.svg?color=00B37E" alt="languagesTop" >
+    <img src="https://img.shields.io/github/languages/top/felipengr/todo-Iginite.svg?color=5e60ce" alt="languagesTop" >
   </a>
 
   <a href="">
-    <img src="https://img.shields.io/github/repo-size/felipengr/todo-Iginite.svg?color=00B37E" alt="repo-size" >
+    <img src="https://img.shields.io/github/repo-size/felipengr/todo-Iginite.svg?color=5e60ce" alt="repo-size" >
   </a>
 
   <a href="">
-    <img src="https://img.shields.io/github/last-commit/felipengr/todo-Iginite.svg?color=00B37E" alt="last-commit" >
+    <img src="https://img.shields.io/github/last-commit/felipengr/todo-Iginite.svg?color=5e60ce" alt="last-commit" >
   </a>
 
 </div>
