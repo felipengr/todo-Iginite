@@ -1,7 +1,7 @@
 .task {
     width: 100%;
-    background-color: var(--gary-500);
-    border: 1px solid var(--gary-400);
+    background-color: var(--gray-500);
+    border: 1px solid var(--gray-400);
     padding: 1rem;
     border-radius: 8px;
     display: flex;
@@ -34,5 +34,5 @@
 .deleteButton {
     background: none;
     border: none;
-    color: var(--gary-300);
+    color: var(--gray-300);
 }

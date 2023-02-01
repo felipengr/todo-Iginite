@@ -1,14 +1,19 @@
 import { TbTrash } from 'react-icons/tb'
+import { ITask } from '../../App'
 import styles from './task.module.css'
 
-export function Task() {
+interface Props {
+    task: ITask;
+}
+
+export function Task({ task }: Props) {
     return (
         <div className={styles.task}>
             <button className={styles.checkContainer}>
                 <div />
             </button>
             <p>
-                Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.
+                {task.title}
             </p>
 
             <button className={styles.deleteButton}>
